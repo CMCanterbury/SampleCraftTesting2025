@@ -1,5 +1,6 @@
 {
   "item.samplecrafttesting.example_item": "Example Item",
+  "block.samplecrafttesting.example_block": "Example Block",
   "creativetab.samplecrafttesting.example_tab": "Example Tab",
   "creativetab.samplecrafttesting.second_tab": "Second Tab"
 }
