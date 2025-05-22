@@ -16,7 +16,8 @@ public class SCTBlocks {
 
     //Blocks go here
     public static final DeferredBlock<Block> EXAMPLE_BLOCK = registerWithItem("example_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)));
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .destroyTime(5).requiresCorrectToolForDrops().jumpFactor(5)));
 
 
     public static void register(IEventBus bus) {
