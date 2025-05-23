@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "samplecrafttesting:example_item"
+    }
+  },
+  "pattern": [
+    "EDE",
+    "DED",
+    "EDE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "samplecrafttesting:example_block"
+  }
+}
